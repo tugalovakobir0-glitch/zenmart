@@ -1,0 +1,274 @@
+.navbar_frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+
+  display: flex;
+  justify-content: center;
+  background: #443244;
+}
+
+.contener {
+  position: relative;
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar_top {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_top > a img {
+  margin-right: 76px;
+  width: 115px;
+  height: 36px;
+}
+
+.navbar_top .nav_search_frame {
+  width: 650px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.navbar_top .search_box {
+  padding: 10px 17px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search_box .catigory_list {
+  width: 166px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #d6d6d6;
+}
+
+.catigory_list select {
+  width: 140px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+.search_box input {
+  width: 387px;
+  height: 22px;
+  margin-left: 12px;
+
+  border: none;
+  outline: none;
+}
+
+.nav_search_frame .search_icon_box {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5c34b;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.search_icon_box img {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar_top .nav_top_menu {
+  margin-left: 59px;
+  width: 416px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_top_menu .top_menu_box {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top_menu_box .box_icon_box {
+  margin-right: 20px;
+  position: relative;
+  width: 40px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_icon_box img {
+  width: 22px;
+  height: 22px;
+}
+.top_menu_box .box_info_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box_info_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.box_info_box strong {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.box_icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: -2px;
+  right: -3px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  background-color: #f5c34b;
+
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+}
+
+.navbar_bott {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-top: 1px solid #5746a1;
+}
+
+.navbar_bott .navbar_bott_menu_box {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_bott_menu_box .browse_box {
+  width: 185px;
+  height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #5746a1;
+}
+
+.browse_box img {
+  margin-right: 10px;
+  width: 20px;
+  height: 18px;
+}
+
+.browse_box span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.navbar_bott_menu_box .navbar_route_menu {
+  margin-left: 12px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar_route_menu .roter_menu {
+  margin-right: 20px;
+  width: auto;
+  height: 41px;
+
+  text-decoration: none;
+
+  display: flex;
+}
+
+.roter_menyu a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.roter_menyu a.active {
+  color: #f5c34b;
+}
+
+.navbar_bott_menu_box .sorting_menu {
+  display: flex;
+  flex-direction: row;
+  top: 20px;
+}
+
+.sorting_menu {
+  padding-bottom: 0px;
+}
+
+.sorting_menu span {
+  margin-right: 20px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
