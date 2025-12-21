@@ -272,3 +272,272 @@
   line-height: 28px;
   color: #ffffff;
 }
+
+/* Nabar box */
+
+.home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page .header_frame {
+  position: relative;
+  margin-top: 47px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.home_page .header_frame .contener {
+  flex-direction: row;
+}
+
+.home_page .contener .header_left {
+  position: relative;
+  width: 875px;
+  height: 508px;
+
+  background: #0053f6;
+  background-image: url("/public/images/icons/header_bg.svg");
+}
+
+.home_page .header_left .header_content {
+  margin-left: 20px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page .header_content div {
+  width: 104px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f5c34b;
+  border-radius: 6px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  color: #041e42;
+}
+
+.home_page .header_content span {
+  margin-top: 10px;
+  width: 428px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 87px;
+  color: #041e42;
+
+  color: #ffffff;
+}
+
+.home_page .header_content p {
+  margin-top: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.home_page .header_content a {
+  margin-top: 20px;
+  width: 140px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 6px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+
+  text-decoration: none;
+}
+
+.home_page .header_content img {
+  position: absolute;
+  right: 10px;
+}
+
+.home_page .contener .header_right {
+  margin-left: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.home_page .header_right .header_box {
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 422px;
+  height: 240px;
+
+  display: flex;
+  flex-direction: row;
+  background: #f2f2f2;
+}
+
+.home_page .header_right .box_left {
+  margin-left: 30px;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_page .box_left span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #0053f6;
+}
+
+.home_page .box_left p {
+  margin: 10px 0;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+
+  color: #041e42;
+}
+
+.home_page .box_left a {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
+}
+
+.home_page .box_left .hover_border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+
+  background: #041e42;
+}
+
+.home_page .header_box .box_right {
+  width: 50%;
+}
+
+.home_page .box_right img {
+  width: 100%;
+  height: 100%;
+}
+
+.home_page .hover_box {
+  margin-top: 3px;
+  width: 100px;
+  height: 2px;
+
+  background: #041e42;
+}
+/* Navbar seans */
+
+.main_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_box .my_box {
+  margin-top: 30px;
+  width: 1320px;
+  height: 86px;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.my_box .banner_1 {
+  padding-right: 115px;
+  position: relative;
+  width: 263px;
+  height: 77px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.banner_1 .box_my {
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 33px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_my img {
+  width: 100%;
+  height: 100%;
+}
+
+.pisturi_box1 {
+  margin-bottom: 8px;
+  margin-left: 20px;
+  width: 216px;
+  height: 77px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.pisturi_box1 span {
+  width: 156px;
+  height: 25px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.pisturi_box1 p {
+  width: 215.91px;
+  height: 44px;
+
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
