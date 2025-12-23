@@ -280,6 +280,40 @@
   flex-direction: column;
 }
 
+.contener .shop_box {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.shop_box span {
+  margin-left: 20px;
+  width: 690px;
+  height: 40px;
+  color: rgba(4, 30, 66, 1);
+  font-family: Jost;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.shop_box a {
+  width: 131px;
+  height: 22px;
+
+  color: rgba(4, 30, 66, 1);
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
 .home_page .header_frame {
   position: relative;
   margin-top: 47px;
@@ -464,6 +498,7 @@
 /* Navbar seans */
 
 .main_box {
+  padding-left: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -555,9 +590,6 @@
 
 .peg_contener .contener {
   flex-direction: column;
-
-  box-sizing: border-box;
-  border: 1px solid rgba(234, 234, 234, 1);
 }
 
 .contener .shop_box {
@@ -630,6 +662,7 @@
 
 .category_box span {
   margin-top: 15px;
+
   color: rgba(4, 30, 66, 1);
   font-family: Jost;
   font-size: 16px;
@@ -637,4 +670,193 @@
   line-height: 28px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* Best List */
+
+.selling_produsk_frame {
+  position: relative;
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.selling_produsk_frame .contener {
+  flex-direction: column;
+}
+
+.contener .produsk_wrapper {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.produsk_wrapper .next_prev_box {
+  width: 25px;
+}
+
+.next_prev_box img {
+  position: absolute;
+  top: 50%;
+}
+
+.produsk_wrapper .produsk_boxes {
+  position: relative;
+  width: 1224px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.produsk_boxes .produsk_box {
+  width: 306px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.produsk_box .produsk_imegi_box {
+  width: 100%;
+  height: 280px;
+}
+
+.produsk_imegi_box .hover_box {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hover_box button {
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+
+  background: #0053f6;
+  box-shadow: 0px 5px 20px rgba(0, 83, 246, 0.1);
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.produsk_imegi_box:hover .hover_box {
+  display: flex;
+  background: none;
+}
+
+.produsk_box .produsk_content_box {
+  padding: 5px 22px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.produsk_content_box .produst_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #626974;
+}
+
+.produsk_content_box .produst_desc {
+  height: 56px;
+  margin-top: 7px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  overflow: hidden;
+
+  color: #041e42;
+}
+
+.produsk_content_box .riview_box {
+  margin-top: 7px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.riview_box img {
+  margin-right: 5px;
+}
+
+.riview_box span {
+  margin-left: 10px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #626974;
+}
+
+.produsk_content_box .price_box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.price_box strong {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #041e42;
+}
+
+.price_box span {
+  margin-left: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+
+  color: #626974;
+}
+
+.produsk_pagenation_box {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
