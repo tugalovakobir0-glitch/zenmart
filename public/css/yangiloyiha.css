@@ -272,3 +272,49 @@
   line-height: 28px;
   color: #ffffff;
 }
+
+.contener .pagination_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contener .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contener .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contener .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.contener .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+
+  background: #112137;
+}
+
+.contener .pagination_dot .dot.active {
+  border: 2px solid #112137;
+}

@@ -314,6 +314,16 @@
   letter-spacing: 0%;
 }
 
+.contener .hover_border {
+  margin-top: 3px;
+  width: 32px;
+  height: 2px;
+
+  background: #041e42;
+}
+
+/* header frame */
+
 .home_page .header_frame {
   position: relative;
   margin-top: 47px;
@@ -471,14 +481,6 @@
   color: #041e42;
 }
 
-.home_page .box_left .hover_border {
-  margin-top: 3px;
-  width: 32px;
-  height: 2px;
-
-  background: #041e42;
-}
-
 .home_page .header_box .box_right {
   width: 50%;
 }
@@ -495,6 +497,54 @@
 
   background: #041e42;
 }
+
+/* pagination */
+.contener .pagination_box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contener .pagination_main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contener .pagination_main .pagination_dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.contener .pagination_dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.contener .pagination_dot .dot div {
+  width: 4px;
+  height: 4px;
+
+  background: #112137;
+}
+
+.contener .pagination_dot .dot.active {
+  border: 2px solid #112137;
+}
+
 /* Navbar seans */
 
 .main_box {
@@ -859,4 +909,193 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Info Box */
+.selling_produsk_frame .info_bar {
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_bar .info_box {
+  width: 1919px;
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  background: rgba(229, 237, 255, 1);
+}
+
+.info_box b {
+  width: 1113.6px;
+  height: 26px;
+
+  color: rgba(0, 83, 246, 1);
+
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+/* Head phones box */
+
+.home_page .space_produck_frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.space_produck_frame .contener {
+  flex-direction: column;
+}
+
+.contener .spec_produsk_wrapper {
+  position: relative;
+  margin-top: 35px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.spec_produsk_wrapper .big_produsk_box {
+  padding: 30px;
+  position: relative;
+  width: 664px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 6px;
+  background: rgba(243, 245, 246, 1);
+}
+
+.big_produsk_box .small_box {
+  width: 160px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.small_box strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.small_box span {
+  top: 7px;
+
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.small_box a {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.big_produsk_box img {
+  position: absolute;
+  width: 322px;
+  height: 309px;
+  right: 5%;
+}
+
+.spec_produsk_wrapper .small_produsk_wrapper {
+  margin-left: 30px;
+  width: 620px;
+  height: 368px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.small_produsk_wrapper .small_produsk_box {
+  position: relative;
+  padding: 30px;
+  width: 293px;
+  height: 170px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+
+  background: #f3f5f6;
+  border-radius: 6px;
+}
+
+.small_produsk_box .small_produsk_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.small_produsk_content strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.small_produsk_content span {
+  margin-top: 7px;
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.small_produsk_box img {
+  position: absolute;
+  right: 10%;
+  bottom: 30px;
 }
