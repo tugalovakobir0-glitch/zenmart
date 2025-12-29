@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+US+Trad+Guides&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Share+Tech&display=swap"
-      rel="stylesheet">
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
   </head>
   <body>
     <div class="navbar_frame">
@@ -230,11 +230,10 @@
             <span>Shop Catigory</span>
             <a href="" style="text-decoration: none">View All Categories</a>
           </div>
-          <a href="">
-          <div class="produsk_wrapper">
-            <div class="swiper mySwiper">
-            <div class="swiper-button-next">
-              <img src="./public/images/Arrows-1.png" alt="" />
+        <a href="">
+          <div class="produsk_wrapper  flexySwiper">
+            <div class="next_prev_box  prev_btn">
+              <img src="./public/images/icons/next.svg" alt="" />
             </div>
             <div class="produsk_boxes swiper-wrapper">
               <div class="produsk_box swiper-slide">
@@ -383,6 +382,112 @@
                   <div
                     class="produsk_imegi_box"
                     style="
+                      background: url('./public/images/products/watch.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="produsk_content_box">
+                  <span class="produst_title">Samsung</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">
+                      Apple Watch Se (GPS) 40mm Space Grey Aliminum Case with
+                    </p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="produsk_box swiper-slide">
+                <a href="" style="text-decoration: none">
+                  <div
+                    class="produsk_imegi_box"
+                    style="
+                      background: url('./public/images/products/phone.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="produsk_content_box">
+                  <span class="produst_title">Sony</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">
+                      Apple iPhone 11 64GB Smartphone - Black
+                    </p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="produsk_box  swiper-slide">
+                <a href="" style="text-decoration: none">
+
+                  <div
+                    class="produsk_imegi_box"
+                    style="
+                      background: url('./public/images/products/iRobot.png');
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover_box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="produsk_content_box">
+                  <span class="produst_title">Sony</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">
+                      iRobot Roomba i3+ EVO WI-FI Connected Self-Empty Robot
+                    </p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 399</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+               <div class="produsk_box swiper-slide">
+                <a href="" style="text-decoration: none">
+                  <div
+                    class="produsk_imegi_box"
+                    style="
                       background: url('./public/images/products/dyson.png');
                       background-size: cover;
                     "
@@ -413,10 +518,12 @@
                   </div>
                 </div>
               </div>
+              
             </div>
-            </div>
-            <div class="swiper-button-prev" style="transform: scaleX(-1)">
-              <img src="./public/images/Arrows-2.png" alt="" />
+        
+            
+            <div class="next_prev_box  next_btn" style="transform: scale(-1)">
+              <img src="./public/images/icons/next.svg" alt="" />
             </div>
           </div>
           <div class="pagination_box">
@@ -523,28 +630,29 @@
           </div>
         </div>
       </div>
-    <div class="tv_frame">
-      <div class="contener">
-        <div class="shop_box">
+      <div class="tv_frame">
+        <div class="contener">
+          <div class="shop_box">
             <span>Tv & Home Theatre</span>
             <div>
-            <a href="" style="text-decoration: none">Telivisions</a>
-            <a href="" style="text-decoration: none">Digital Cable</a>
-            <a href="" style="text-decoration: none">Media Stamers</a>
-            <a href="" style="text-decoration: none">Revote Controls</a>
+              <a href="" style="text-decoration: none">Telivisions</a>
+              <a href="" style="text-decoration: none">Digital Cable</a>
+              <a href="" style="text-decoration: none">Media Stamers</a>
+              <a href="" style="text-decoration: none">Revote Controls</a>
             </div>
           </div>
           <div class="tv_wrapper">
             <div class="next_prev_box">
-              <img src="./public/images/icons/next.svg" alt="">
+              <img src="./public/images/icons/next.svg" alt="" />
             </div>
-<div class="tv_product_boxes">
-  
-  <div class="tv_product_box">
-    <div class="product_img">
-      <a href=""><img src="./public/images/products/samsung_tv.png" alt=""></a>
-    </div>
-     <div class="produsk_content_box">
+            <div class="tv_product_boxes">
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href=""
+                    ><img src="./public/images/products/samsung_tv.png" alt=""
+                  /></a>
+                </div>
+                <div class="produsk_content_box">
                   <span class="produst_title">Samsung</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
@@ -564,12 +672,14 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-  <div class="tv_product_box">
-    <div class="product_img">
-      <a href=""><img src="./public/images/products/tcl.png" alt=""></a>
-    </div>
-     <div class="produsk_content_box">
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href=""
+                    ><img src="./public/images/products/tcl.png" alt=""
+                  /></a>
+                </div>
+                <div class="produsk_content_box">
                   <span class="produst_title">TLC</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
@@ -589,12 +699,14 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-  <div class="tv_product_box">
-    <div class="product_img">
-      <a href=""><img src="./public/images/products/LG-UHD.png" alt=""></a>
-    </div>
-     <div class="produsk_content_box">
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href=""
+                    ><img src="./public/images/products/LG-UHD.png" alt=""
+                  /></a>
+                </div>
+                <div class="produsk_content_box">
                   <span class="produst_title">LG</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
@@ -614,12 +726,14 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-  <div class="tv_product_box">
-    <div class="product_img">
-      <a href=""><img src="./public/images/products/LG-OLED.png" alt=""></a>
-    </div>
-     <div class="produsk_content_box">
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href=""
+                    ><img src="./public/images/products/LG-OLED.png" alt=""
+                  /></a>
+                </div>
+                <div class="produsk_content_box">
                   <span class="produst_title">LG</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
@@ -639,12 +753,14 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-  <div class="tv_product_box">
-    <div class="product_img">
-      <a href=""><img src="./public/images/products/SONY-TV.png" alt=""></a>
-    </div>
-     <div class="produsk_content_box">
+              </div>
+              <div class="tv_product_box">
+                <div class="product_img">
+                  <a href=""
+                    ><img src="./public/images/products/SONY-TV.png" alt=""
+                  /></a>
+                </div>
+                <div class="produsk_content_box">
                   <span class="produst_title">SONY</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
@@ -664,13 +780,17 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-            <div class="next_prev_box">
-              <img src="./public/images/icons/next.svg" alt="" style="transform: scale(-1);">
+              </div>
+              <div class="next_prev_box">
+                <img
+                  src="./public/images/icons/next.svg"
+                  alt=""
+                  style="transform: scale(-1)"
+                />
+              </div>
             </div>
           </div>
-      </div>
-      <div class="pagination_box">
+          <div class="pagination_box">
             <div class="pagination_main">
               <img src="./public/images/icons/arrow-prev_next.svg" alt="" />
               <div class="pagination_dot">
@@ -705,48 +825,51 @@
               />
             </div>
           </div>
-      </div>
-    </div>
-    <div class="evend_frame">
-      <div class="contener">
-        <div class="evend_contend_box">
-          <span class="evend_title">Top Deals Of The Day</span>
-          <div class="timer_wrapoper">
-            <div class="timer_box">
-              <strong >178</strong>
-              <span>Days</span>
-            </div>
-             <div class="timer_box">
-              <strong class="evend_title">23</strong>
-              <span>Hours</span>
-            </div>
-             <div class="timer_box">
-              <strong class="evend_title">14</strong>
-              <span>Minutes</span>
-            </div>
-             <div class="timer_box">
-              <strong class="evend_title">39</strong>
-              <span>Seconds</span>
-            </div>
-          
-          <a href="">Show More</a>
         </div>
-        <div class="evend_produsk_ wrapper"></div>
       </div>
-      <div class="evend_produsk_wrapper">
-        <div class="next_prev_box">
-          <img src="./public/images/icons/next.svg" alt="">
-        </div>
-<div class="evend_product_boxes">
-  <div class="evend_product_box">
-    <div class="evend_img">
-      <img src="./public/images/products/sony_notebook.png" alt="">
-    </div>
-    <div class="produsk_content_box">
-                  <span class="produst_title">Samsung</span>
+      <div class="evend_frame">
+        <div class="contener">
+          <div class="evend_contend_box">
+            <span class="evend_title">Top Deals Of The Day</span>
+            <div class="timer_wrapper">
+              <div class="timer_box">
+                <strong>178</strong>
+                <span>Days</span>
+              </div>
+              <div class="timer_box">
+                <strong class="evend_title">23</strong>
+                <span>Hours</span>
+              </div>
+              <div class="timer_box">
+                <strong class="evend_title">14</strong>
+                <span>Minutes</span>
+              </div>
+              <div class="timer_box">
+                <strong class="evend_title">39</strong>
+                <span>Seconds</span>
+              </div>
+            </div>
+            <a href="">Show More</a>
+          </div>
+
+          <div class="evend_produsk_wrapper">
+            <div class="next_prev_box">
+              <img src="./public/images/icons/next.svg" alt="" class="white_blok"/>
+            </div>
+
+            <div class="evend_product_boxes">
+              <div class="evend_product_box">
+                <div class="evend_img">
+                  <img
+                    src="./public/images/products/sony_notebook.png"
+                    alt=""
+                  />
+                </div>
+                <div class="produsk_content_box" style="padding: 0 0 0 10px">
+                  <span class="produst_title">Sony</span>
                   <a href="" style="text-decoration: none">
                     <p class="produsk_desc">
-                      Apple Watch Se (GPS) 40mm Space Grey Aliminum Case with
+                      SAMSUNG CHrome book 4+ 15.6"intel Celeron
                     </p>
                   </a>
                   <div class="riview_box">
@@ -762,14 +885,214 @@
                     <span>$45</span>
                   </div>
                 </div>
-  </div>
-</div>
+              </div>
+              <div class="evend_product_box">
+                <div class="evend_img">
+                  <img
+                    src="./public/images/products/sony_playstation.png"
+                    alt=""
+                  />
+                </div>
+                <div class="produsk_content_box" style="padding: 0 0 0 10px">
+                  <span class="produst_title">Sony</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">
+                      Sony PlayStation 5 video Game Concole
+                    </p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="evend_product_box">
+                <div class="evend_img">
+                  <img
+                    src="./public/images/products/apple_watch.png"
+                    alt=""
+                  />
+                </div>
+                <div class="produsk_content_box" style="padding: 0 0 0 10px">
+                  <span class="produst_title">Eastsport</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">Apple Watch Series 3 Gps Space Gray-38m</p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+              <div class="evend_product_box">
+                <div class="evend_img">
+                  <img
+                    src="./public/images/products/canon_camera.png"
+                    alt=""
+                  />
+                </div>
+                <div class="produsk_content_box" style="padding: 0 0 0 10px">
+                  <span class="produst_title">Eastsport</span>
+                  <a href="" style="text-decoration: none">
+                    <p class="produsk_desc">
+                      Canon EOS Rubet T100 Digital SLR Camera With.
+                    </p>
+                  </a>
+                  <div class="riview_box">
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <img src="./public/images/icons/review.svg" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price_box">
+                    <strong>$ 32</strong>
+                    <span>$45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-        <div class="next_prev_box" >
-          <img src="./public/images/icons/next.svg" alt="" style="transform: scale(-1);">
+            <div class="next_prev_box" style="transform: scale(-1)">
+              <img src="./public/images/icons/next.svg" alt="" class="white_blok"/>
+          </div>
         </div>
+
       </div>
+    </div>
+   
+   
+     <div class="footer_frame">
+      <div class="contener">
+        <div class="footer_top">
+          <div class="footer_contact_box">
+            <strong class="footer_spec_title">Contact Us</strong>
+            <a href="" style="text-decoration: none;">
+             <div class="footer_contact_main">
+              
+              <img src="./public/images/icons/phone-call.svg" alt="">
+              <div>
+                <strong>Monday-Friday: 08am-9pm</strong>
+                <span> +(1) 123 456 7890</span>
+              </div>
+            
+          
+            </div>
+            </a>
+             <div class="footer_contact_main">
+              <img src="./public/images/icons/email.svg" alt="">
+              <div>
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer_contact_box2">
+            <div class="box1">
+<strong class="footer_spec_title">Custover Support</strong>
+<div>
+<a href="" style="text-decoration: none;">Contact Us</a>
+<a href="" style="text-decoration: none;">Help Centre</a>
+<a href="" style="text-decoration: none;"> Returns & Exchanges</a>
+<a href="" style="text-decoration: none;">Best Buy Financing</a>
+<a href="" style="text-decoration: none;">Best buy Gift Card </a>
+        </div>
+            </div>
+        <div class="box2">
+          <strong class="footer_spec_title">Services</strong>
+          <div>
+            <a href="" style="text-decoration: none;">Geek Squad</a>
+            <a href="" style="text-decoration: none;">In-Home Advisor</a>
+            <a href="" style="text-decoration: none;"> Tradi-In Program</a>
+            <a href="" style="text-decoration: none;">Electronics Recycling</a>
+            <a href="" style="text-decoration: none;">Best Bust Headth</a>
+          </div>
+        </div>
+        </div>
+        <div class="footer_contact_box3">
+          <div class="box3">
+            
+            <strong class="footer_spec_title">Follow Us</strong>
+            <a href="" style="text-decoration: none;">
+            <div class="img_box">
+             <i class="fa-brands fa-facebook-f"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-linkedin-in"></i>
+            
+            </div>
+            </a>
+          </div>
+          
+          <div class="box3">
+            <strong class="footer_spec_title">Mobile App</strong>
+   <a href="" style="text-decoration: none;">
+             <div class="img_box">
+      <img src="./public/images/icons/apple_icon.png" alt="">
+      <span>iOS App</span>
+    </div>
+     <div class="img_box">
+      <img src="./public/images/icons/android_icon.png" alt="">
+      <span>Andiroid App</span>
+    </div>
+   </a>
+          </div>
+        </div>
+        <div class="footer_contact_box4">
+          <span class="footer_spec_title">We accept</span>
+          <a href="" style="text-decoration: none;">
+          <div class="img_box">
+            <img src="./public/images/icons/visa.png" alt="">
+            <img src="./public/images/icons/master_card.png" alt="">
+            <img src="./public/images/icons/apple_pay.png" alt="">
+            <img src="./public/images/icons/dicvover.png" alt="">
+            <img src="./public/images/icons/paypal.png" alt="">
+            <img src="./public/images/icons/amex.png" alt="">
+          </div>
+          </a>
+        </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_main">
+            <div class="footer_bottom_left">
+              <span>© 2022 Zenmart. All Rights Reserved</span>
+              <span>Privacy  ·  Terms  ·  Sitemap</span>
+            </div>
+            <div class="footer_bottom_right">
+              <div class="footer_select_box">
+                <span>Currency</span>
+                <select name="" id="">
+                  <option value="" selected>USD</option>
+                  <option value="">UZS</option>
+                </select>
+              </div>
+              <div class="footer_select_box">
+                <span>Language</span>
+                <select name="" id="">
+                  <option value="" selected>English</option>
+                  <option value="">Rus</option>
+                  <option value="">Uzb</option>
+                </select>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
     </div>
@@ -777,14 +1100,17 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
- <script>
-    var swiper = new Swiper('.mySwiper', {
-      slidesPerView: 3,
-      direction:'horizontal',
+  <script>
+    var swiper = new Swiper(".flexySwiper", {
+      slidesPerView: 4,
+      spaceBetween:0,
+
       navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+nextEl:" .next_btn",
+prevEl:" .prev_btn",
       },
+     
+       
       
     });
   </script>
