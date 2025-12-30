@@ -1,5 +1,5 @@
 :root {
-  --font: "Jost";
+  --font: sans-serif;
 }
 
 .navbar_frame {
@@ -288,9 +288,9 @@
   justify-content: center;
   background: #f3f5f6;
 }
-
 .footer_spec_title {
   margin-bottom: 30px;
+  display: block;
   font-family: var(--font);
   font-style: normal;
   font-weight: 500;
@@ -302,6 +302,8 @@
 
 .footer_frame .contener {
   flex-direction: column;
+
+  background: rgba(243, 245, 246, 1);
 }
 
 .contener .footer_top {
@@ -323,6 +325,8 @@
 }
 
 .footer_contact_main img {
+  margin-right: 20px;
+  margin-bottom: 30px;
   width: 35px;
   height: 30px;
 }
@@ -330,4 +334,229 @@
 .footer_contact_main div {
   display: flex;
   flex-direction: column;
+}
+
+.footer_contact_box2 {
+  margin-left: 75px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_contact_box2 div {
+  display: flex;
+  flex-direction: column;
+}
+
+div a {
+  margin-bottom: 10px;
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.footer_contact_box2 .box2 {
+  margin-left: 67px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.box2 div {
+  display: flex;
+  flex-direction: column;
+}
+
+div a {
+  margin-bottom: 10px;
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.footer_contact_box3 {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_contact_box3 .img_box {
+  display: flex;
+  flex-direction: row;
+}
+
+.img_box i {
+  margin-right: 30px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box3 .img_box {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.img_box span {
+  margin-left: 30px;
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.footer_contact_box4 {
+  margin-top: 200px;
+  margin-left: 70px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contener .footer_bottom {
+  margin-top: 90px;
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+
+  border-top: 1px solid #eaeaea;
+}
+
+.footer_bottom .footer_main {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_main .footer_bottom_left {
+  width: 940px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_bottom_left span {
+  margin-right: 60px;
+
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(4, 30, 66, 1);
+}
+
+.footer_main .footer_bottom_right {
+  width: 400px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer_bottom_right .footer_select_box {
+  padding: 10px 20px;
+  width: 180px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+}
+
+.footer_select_box span {
+  font-family: var(--font);
+  font-style: Regular;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  color: rgba(98, 105, 116, 1);
+}
+
+.footer_select_box select {
+  margin-left: 20px;
+  width: 70px;
+  height: 90%;
+
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #041e42;
+}
+
+/* Shop page */
+.page-router {
+  margin: 20px 0px;
+  width: 1320px;
+}
+
+.page-router span {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  color: #041e42;
+}
+
+.page-router span.drop {
+  margin: 0px 10px;
+}
+
+.page-router span.active {
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
 }
